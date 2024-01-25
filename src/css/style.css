@@ -1,5 +1,7 @@
 :root {
     font-size: 62.5%;
+
+    --cor1: #f76872;
 }
 
 * {
@@ -25,4 +27,3 @@ html {
     height:80px;
     background:rgb(0, 0, 0) ;
 }
-
