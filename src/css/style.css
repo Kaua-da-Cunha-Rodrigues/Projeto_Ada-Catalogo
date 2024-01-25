@@ -38,7 +38,8 @@ html {
 
 .head3{
     display: flex;
-    width: 100%;
-    background-image: url(https://iceberg.com.br/wp-content/uploads/2022/11/Publicacoes-instagram-2022-11-25T102214.080-edited.jpg);
+  
+    background-size: cover;
+    height: 300px;
   
 }
