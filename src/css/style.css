@@ -76,6 +76,48 @@ html {
 
 }
 
+.Cardápio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+figure{
+    border: 5px solid black;
+    
+}
+
+figcaption{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+.boxcardápio{
+    width: 400px;    
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.itembox{
+    
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F6F7;
+}
+
+
+.item img{
+    height: 300px;
+    width: 400px;
+}
+
+
 
 
 /* aside{
