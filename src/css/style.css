@@ -7,7 +7,7 @@
     --cor4: #382926; /*usado no footer*/
     --cor5: #BF8B63; /*usado em alguns botões*/
     --cor6: #2D2220; /*Usado abaixo do footer*/
-}a
+}
 
 * {
     margin: 0%;  
@@ -30,13 +30,27 @@ html {
 }
 
 .head2{
+    display: flex;
     width:100%;
-    height:150px;
-    border: 10px solid black;
-    background-color: var(--cor2);
-    
+    height:160px;
+    padding-top: 10px;
+    background-color: var(--cor2); 
+    align-items: center;
+    justify-content: left;     
 }
 
+.navegação {
+    margin: 40px;
+    width: 100%;  
+}
+
+.navegação a{
+    text-decoration: inherit;
+    color: black;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
 
 .head3{
     display: flex;
