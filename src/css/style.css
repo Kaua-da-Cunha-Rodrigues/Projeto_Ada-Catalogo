@@ -35,3 +35,11 @@ html {
     height:150px;
     border: 10px solid black;
 }
+
+.head3{
+    display: flex;
+  
+    background-size: cover;
+    height: 300px;
+  
+}
