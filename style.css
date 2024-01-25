@@ -1,0 +1,23 @@
+:root {
+    font-size: 62.5%;
+    /*Respeita a acessibilidade, a mudança de tamanho pelo navegador. Em vez de definir os textos em pixels e %, usa-se "rem"*/
+}
+
+* {
+    margin: 0%;
+    /* Tiram as Margens */
+    padding: 0%;
+    box-sizing: border-box;
+    /* Evita uma brusca modificação do bloco pelo padding*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.linha1{
+    display: flex;
+    width:100%;
+    height:20px;
+    background:burlywood ;
+}
