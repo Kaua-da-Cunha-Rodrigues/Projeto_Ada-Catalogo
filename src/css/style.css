@@ -18,3 +18,11 @@ html {
     height:20px;
     background:rgb(131, 94, 47) ;
 }
+
+.head2{
+    display: flex;
+    width:100%;
+    height:80px;
+    background:rgb(0, 0, 0) ;
+}
+
