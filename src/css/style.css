@@ -47,15 +47,22 @@ html {
 
 .navegação a{
     text-decoration: inherit;
-    color: black;
+    color: #2D2220;
     margin: 20px;
     font-size: 30px;
     font-family: 'Permanent Marker', cursive;
 }
 
+.navegação a:hover{
+    background-color: #BF8B63;
+    padding: 1px;
+}
+
+
+
 .head3{
-    width: 100%;
-    background-image: url(https://png.pngtree.com/background/20230403/original/pngtree-chocolate-background-picture-image_2280646.jpg);
+    width: 1378px;
+    background-image: url(src/img/123.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
