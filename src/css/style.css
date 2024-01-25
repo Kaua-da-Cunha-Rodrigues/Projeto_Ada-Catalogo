@@ -76,17 +76,17 @@ html {
 
 }
 
+/* Parte do Cardápio */
+
 .Cardápio{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #2D2220;
+    height: 600px;
+    width: 100%;
 }
 
-
-figure{
-    border: 5px solid black;
-    
-}
 
 figcaption{
     font-size: 20px;
@@ -95,7 +95,7 @@ figcaption{
 
 
 .boxcardápio{
-    width: 400px;    
+    width: 800px;    
     align-items: center;
     justify-content: center;
   
@@ -109,46 +109,11 @@ figcaption{
     align-items: center;
     justify-content: center;
     background-color: #F8F6F7;
+    height: 100px;
 }
 
 
 .item img{
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 800px;
 }
-
-
-
-
-/* aside{
-    float: right;
-    height: 550px;
-    width: 500px;
-    background-size: cover;
-    background-image: url(https://img.freepik.com/fotos-premium/uma-vitrine-de-chocolate-com-uma-barra-de-chocolate-dentro_853115-469.jpg);
-}
-
-#nome{
-  text-align: center;
-  display: flex;
-  margin: auto;
-  border-radius: 10px;
-  font-size:30px ;
-  background-color: #2D2220;
-  color: white;
-  
- 
-}
-
-#nome::placeholder{
-  background-color: #2D2220;
-  background-blend-mode:  screen;
-  color: white;
-}
-
-aside h2{
-    text-align: center;
-  
-    color: white;
-    font-size: 50px;
-} */
