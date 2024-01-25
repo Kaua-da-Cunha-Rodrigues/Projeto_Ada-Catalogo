@@ -36,7 +36,8 @@ html {
     padding-top: 10px;
     background-color: var(--cor2); 
     align-items: center;
-    justify-content: left;     
+    justify-content: left;
+    
 }
 
 .navegação {
@@ -53,9 +54,10 @@ html {
 }
 
 .head3{
-    display: flex;
-  
+    width: 100%;
+    background-image: url(https://png.pngtree.com/background/20230403/original/pngtree-chocolate-background-picture-image_2280646.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
   
 }
