@@ -1,7 +1,12 @@
 :root {
     font-size: 62.5%;
 
-    --cor1: #f76872;
+    --cor1: #7F574D; /*usado no header mais acima*/
+    --cor2: #F8F6F7; /*usado no header e nos cards*/
+    --cor3: #5A413C; /*usado no fundo dos cards*/
+    --cor4: #382926; /*usado no footer*/
+    --cor5: #BF8B63; /*usado em alguns botões*/
+    --cor6: #2D2220; /*Usado abaixo do footer*/
 }
 
 * {
