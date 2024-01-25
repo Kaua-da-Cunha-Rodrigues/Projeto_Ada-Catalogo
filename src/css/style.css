@@ -1,70 +1,112 @@
 :root {
     font-size: 62.5%;
 
-    --cor1: #7F574D; /*usado no header mais acima*/
-    --cor2: #F8F6F7; /*usado no header e nos cards*/
-    --cor3: #5A413C; /*usado no fundo dos cards*/
-    --cor4: #382926; /*usado no footer*/
-    --cor5: #BF8B63; /*usado em alguns botões*/
-    --cor6: #2D2220; /*Usado abaixo do footer*/
+    --cor1: #7F574D;
+    /*usado no header mais acima*/
+    --cor2: #F8F6F7;
+    /*usado no header e nos cards*/
+    --cor3: #5A413C;
+    /*usado no fundo dos cards*/
+    --cor4: #382926;
+    /*usado no footer*/
+    --cor5: #BF8B63;
+    /*usado em alguns botões*/
+    --cor6: #2D2220;
+    /*Usado abaixo do footer*/
 }
 
 * {
-    margin: 0%;  
+    margin: 0%;
     padding: 0%;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-.head1{
+.head1 {
     display: flex;
-    width:100%;
-    height:20px;
+    width: 100%;
+    height: 20px;
     background-color: var(--cor1);
     align-items: center;
     justify-content: center;
     color: white;
 }
 
-.head2{
+.head2 img {
+    height: 100px;
+}
+
+
+.head2 {
     display: flex;
-    width:100%;
-    height:160px;
+    width: 100%;
+    height: 140px;
     padding-top: 10px;
-    background-color: var(--cor2); 
+    background-color: var(--cor2);
     align-items: center;
     justify-content: left;
-    
+
 }
 
 .navegação {
     margin: 40px;
-    width: 100%;  
+    width: 100%;
 }
 
-.navegação a{
+.navegação a {
     text-decoration: inherit;
     color: #2D2220;
-    margin: 20px;
-    font-size: 30px;
+    margin: 40px;
+    font-size: 31px;
     font-family: 'Permanent Marker', cursive;
 }
 
-.navegação a:hover{
+.navegação a:hover {
     background-color: #BF8B63;
     padding: 1px;
 }
 
-
-
-.head3{
+.head3 {
     width: 1378px;
-    background-image: url(src/img/123.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 300px;
+    background-color: var(--cor1);
+
+}
+
+
+
+aside{
+    float: right;
+    height: 550px;
+    width: 500px;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/fotos-premium/uma-vitrine-de-chocolate-com-uma-barra-de-chocolate-dentro_853115-469.jpg);
+}
+
+#nome{
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  font-size:30px ;
+  background-color: #2D2220;
+  color: white;
   
+ 
+}
+
+#nome::placeholder{
+  background-color: #2D2220;
+  background-blend-mode:  screen;
+  color: white;
+}
+
+aside h2{
+    text-align: center;
+  
+    color: white;
+    font-size: 50px;
 }
