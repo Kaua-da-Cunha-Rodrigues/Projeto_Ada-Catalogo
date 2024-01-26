@@ -70,7 +70,7 @@ html {
 }
 
 .imagem_fundo_main {
-    background-image: url("../img/imagem_fundo1.jpg"); 
+    background-image: url("../img/imagem_fundo.jpg"); 
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
