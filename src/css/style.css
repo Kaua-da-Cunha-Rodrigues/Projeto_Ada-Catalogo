@@ -50,12 +50,12 @@ html {
     justify-content: left;
 }
 
-.navegaçao {
+.navegacao {
     margin: 40px;
     width: 100%;
 }
 
-.navegaçao a {
+.navegacao a {
     text-decoration: inherit;
     color: var(--cor6);
     margin: 40px;
@@ -64,7 +64,7 @@ html {
     font-family: 'Permanent Marker', cursive;
 }
 
-.navegaçao a:hover {
+.navegacao a:hover {
     color: var(--cor5);
     transform: scale(1.10);
 }
@@ -107,7 +107,7 @@ figcaption {
     color: black;
 }
 
-.descriçao_box {
+.descricao_box {
 
     width: auto;
     display: flex;
