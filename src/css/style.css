@@ -48,11 +48,9 @@ html {
     background-color: var(--cor2);
     align-items: center;
     justify-content: left;
-
 }
 
 .navegação {
-    margin: 40px;
     width: 100%;
 }
 
@@ -60,6 +58,7 @@ html {
     text-decoration: inherit;
     color: #2D2220;
     margin: 40px;
+    float: right;
     font-size: 31px;
     font-family: 'Permanent Marker', cursive;
 }
@@ -69,16 +68,17 @@ html {
     padding: 1px;
 }
 
-.head3 {
-    width: 1378px;
-    height: 300px;
-    background-color: var(--cor1);
-
+.imagem_fundo_main {
+    background-image: url("../img/imagem_fundo1.jpg"); 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
 }
 
 /* Parte do Cardápio */
 
-.Cardápio{
+.cardapio{
     display: flex;
     align-items: center;
     justify-content: center;
