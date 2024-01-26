@@ -40,7 +40,6 @@ html {
     height: 100px;
 }
 
-
 .head2 {
     display: flex;
     width: 100%;
@@ -52,6 +51,7 @@ html {
 }
 
 .navegação {
+    margin: 40px;
     width: 100%;
 }
 
@@ -69,11 +69,12 @@ html {
     transform: scale(1.10);
 }
 
-.head3 {
-    width: 100%px;
-    height: 400px;
-    background-image: url(https://img.freepik.com/fotos-premium/caixa-de-diferentes-sabores-de-praline-de-chocolates-e-cores-padrao-de-fundo-transparente_970779-1657.jpg);
-
+.imagem_fundo_main {
+    background-image: url("../img/imagem_fundo1.jpg"); 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
 }
 
 /* Parte do Cardápio */
@@ -88,17 +89,14 @@ html {
     padding-top: 7px;
 }
 
-
-
-.Cardápio {
+.cardapio {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 700px;
     width: 100%;
-    background-color: #BF8B63
+    background-color: var(--cor6);
 }
-
 
 figcaption {
     font-size: 30px;
@@ -112,22 +110,19 @@ figcaption {
 .descrição_box {
 
     width: auto;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F8F6F7;
     height: 100px;
-}
-
-.descrição_box:hover {
-    background-color: #7F574D
 }
 
 .boxcardápio {
     width: 1000px;
     align-items: center;
-    justify-content: center;
-    background-color: #2D2220;
+    justify-content: space-evenly;
+    background-color: aliceblue;
     height: 600px;
-
 }
 
 .item img {
