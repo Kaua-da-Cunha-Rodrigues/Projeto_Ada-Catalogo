@@ -182,7 +182,7 @@ figcaption {
 }
 
 .menu-cards {
-    max-width: 1200px;
+    
     flex-wrap: wrap;
     gap: 2rem;
     background-color: var(--cor3);
