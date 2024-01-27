@@ -28,28 +28,31 @@
 
     <title>Delicio_Chocolateria</title>
   </head>
-  <body>
-    <header>
-      <div class="head1">
+  <body id="home">
+
+    <div class="head1">
         <p>
           Endereço: Rua dos Sabores, 123 - Bairro Doçura Feliz, Cidade Açúcar do
           Vale
         </p>
-      </div>
+    </div>
 
+    <header>
       <div class="head2">
-        <img class="logo" src="src/img/logo1.png" alt="Logo do restaurante" />
+        <a href="#home"><img class="logo" src="src/img/logo1.png" alt="Logo do restaurante" /></a>
         <nav class="navegacao">
-          <a rel="cannonical" href="">Home</a>
-          <a rel="cannonical" href="">Cardápio</a>
-          <a rel="cannonical" href="">Contato</a>
+          <a rel="cannonical" href="#cardapio">Cardápio</a>
+          <a rel="cannonical" href="#contatos">Contato</a>
           <a rel="cannonical" href="">Dê seu Feedback</a>
         </nav>
       </div>
     </header>
     <main>
-      <section class="imagem_fundo_main"></section>
-      <section class="cardapio">
+      <section class="imagem_fundo_main">
+
+      </section>
+
+      <section class="cardapio" id="cardapio">
         <div class="boxcardapio">
           <h2 class="cardapiotext">CARDÁPIO</h2>
           <!-- Parte do Carrosel de imagens-->
@@ -318,9 +321,32 @@
 
         </div>
       </section>
+
+      <!--Imagem de fundo final-->
+      <section class="imagem_fundo_main">
+        <p>Sedução em cada mordida, paixão em cada barra. Delício, onde o chocolate é mais do que um doce, é uma paixão!</p>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer id="contatos">
+        <div class="foot1">
+            <img src="src/img/logo2.png" alt="Logo Delicio">
+            <p class="texto_destaque_footer">Delicio Webshop, LLC</p>
+            <p>
+                <span class="texto_destaque_footer">Email:</span> contatodelicio@gmail.com
+            </p>
+            <p>
+                <span class="texto_destaque_footer">Telefone:</span> (24) 99999-9999
+            </p>
+        </div>
+        <div class="foot2">
+
+        </div>
+        <div class="foot3">
+            <p><span class="titulo_footer">Sobre nós</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae quo, maxime delectus nulla tenetur eos ullam? Deleniti ab esse expedita reprehenderit facilis possimus facere quo? Asperiores obcaecati praesentium ratione.</p>
+        </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
