@@ -30,6 +30,9 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    background-color: var(--cor1);
+}
 header{
     position: sticky;
     top: 0;
@@ -173,10 +176,10 @@ figcaption {
 }
 
 .menu-cards {
-    
+    max-width: 1200px;
     flex-wrap: wrap;
     gap: 2rem;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     margin: 0 auto;
     padding: 5rem 2rem;
 }
