@@ -219,6 +219,59 @@ figcaption {
     font-size: 2rem;
     font-weight: bolder;
 }
+
+/* Form */
+.formulario{
+    display: flex;
+    background-color: burlywood;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+input{
+    border-radius: 3px;
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    width: 150px;
+}
+input::placeholder{
+    color: gray;
+    padding-left: 2px;
+}
+
+label{
+    font-weight: bolder;  
+}
+
+textarea::placeholder{
+    color: gray;
+    padding-left: 2px;
+}
+
+textarea{
+    border-radius:5px ;
+    border: 1px solid black;
+    width: 150px;
+}
+
+button{
+   margin: auto;  
+}
+.textsocial{
+    text-align: right;
+    width: 500px;
+    font-size: 20px;
+}
+.social h2{
+    font-size: 30;
+    text-align: right;
+}
+
+/*  */
+
 footer{
     padding: 20px;
     background-color: var(--cor4);
