@@ -34,6 +34,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    border-bottom: 1.8px solid var(--cor4);
 }
 .head1 {
     display: flex;
@@ -107,20 +108,10 @@ header{
 }
 /* Parte do Cardápio */
 
-.destaque .star1{
-     height: 110px ;
-     width: 500px;   
-}
-
-.destaque .star2{
-    height: 110px ;
-    width: 500px;   
-}
-
 .destaque{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .cardapiotext{
@@ -139,7 +130,6 @@ header{
     align-items: center;
     justify-content: space-evenly;
     height: 700px;
-    width: 100%;
     background-color: #5A413C;
 }
 
@@ -162,7 +152,8 @@ figcaption {
 }
 
 .boxcardapio {
-    width: 1000px;
+    width: 900px;
+    margin: 0 10px;
     align-items: center;
     justify-content: space-evenly;
     background-color: #2D2220;
@@ -171,7 +162,7 @@ figcaption {
 
 .item img {
     height: 450px;
-    width: 1000px;
+    width: 900px;
 }
 
 
