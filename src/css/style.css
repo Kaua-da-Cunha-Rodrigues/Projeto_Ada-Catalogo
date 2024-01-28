@@ -135,6 +135,7 @@ header {
   justify-content: space-evenly;
   height: 700px;
   background-color: #5a413c;
+  padding-bottom: 4rem;
 }
 
 figcaption {
@@ -178,7 +179,11 @@ figcaption {
 }
 
 .secao-cardapio {
-  padding-top: 3rem;
+
+}
+.cardapio-title {
+  background-color: var(--cor4);
+  padding: 2rem 0;
 }
 
 .menu-cards {
@@ -242,7 +247,7 @@ figcaption {
     }
     
     & .card-price {
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         font-size: 2rem;
         font-weight: bolder;
     }
