@@ -274,7 +274,7 @@ input {
   text-align: left;
   background-color: white;
   color: black;
-  width: 200px;
+  width: 300px;
   height: 35px;
 }
 input::placeholder {
@@ -297,7 +297,7 @@ textarea::placeholder {
 textarea {
   border-radius: 5px;
   border: none;
-  width: 200px;
+  width: 300px;
   resize: none;
 }
 input,
@@ -306,7 +306,7 @@ textarea {
   padding: 5px;
 }
 .campo_form button {
-  width: 200px;
+  width: 300px;
   border: none;
   border-radius: 5px;
   padding: 10px 0;
