@@ -177,6 +177,10 @@ figcaption {
   align-items: center;
 }
 
+.secao-cardapio {
+  padding-top: 3rem;
+}
+
 .menu-cards {
   max-width: 1200px;
   flex-wrap: wrap;
@@ -239,17 +243,14 @@ figcaption {
     
     & .card-price {
         padding-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: bolder;
     }
 
     & p, h3 {
       margin: 0;
     }
   }
-}
-
-.card-price {
-  font-size: 2rem;
-  font-weight: bolder;
 }
 
 /* Form */
