@@ -138,6 +138,10 @@ header {
   padding-bottom: 4rem;
 }
 
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
 figcaption {
   font-size: 30px;
   text-align: center;
@@ -179,8 +183,9 @@ figcaption {
 }
 
 .secao-cardapio {
-
+  margin-bottom: 4rem;
 }
+
 .cardapio-title {
   background-color: var(--cor4);
   padding: 2rem 0;
